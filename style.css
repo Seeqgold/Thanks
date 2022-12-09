@@ -1,0 +1,69 @@
+body {
+     box-sizing: border-box;
+border: 10px;
+padding: 10%;
+margin: 0;}
+div {border-radius: 1%;
+border: 20%;
+border-color: brown;
+text-align: justify;
+width: 100%;
+height: fit-content;}
+div p{color: black;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+span {background-color: rgb(173, 166, 171);
+font-style: normal;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h1p {background-color: black;
+display: block;}
+.outer {
+border-style: solid;
+padding: 5%;
+align-content: center;}
+.maryjayimg {
+width: 35%;
+display: inline;
+float: left;}
+.maryjay {display: block;
+    padding-left: 0%;
+    height: 290px;
+}
+h1 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: larger;
+font-weight: 100;
+font-style: normal;
+font: bolder;
+color: rgb(115, 141, 165);}
+nav {display: inline-flex;
+padding: 5px;
+background-color: rgb(235, 239, 241);
+border: 10%;
+width: 60%;}
+video{position: relative;
+border-width: 20%;}
+#icons {padding: 10px; margin-left: 20px;}
+.sidebar{ border: 2px solid rgb(245, 245, 245);
+margin-left: 0;
+width: auto;}
+ul {display: flex;
+}
+li {list-style-type: none;}
+a{padding: 10px;
+margin-top: auto;
+color: yellowgreen;
+text-decoration: none;}
+a:hover{color: black;  background-color: aqua;
+}
+a:active {color:blue;}
+footer{border: 1px none white;
+background-color: rgb(230, 224, 224);
+padding-top: 20px;
+}
+.footerp{font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-size: small;
+color: rgb(228, 117, 13);
+ text-align: center;}
