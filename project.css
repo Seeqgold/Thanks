@@ -1,0 +1,57 @@
+* {box-sizing: border-box;
+padding: 0;
+}
+body {background-image: url("/MEDIA/images/IMG_20230316_153058.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+.box {border-bottom: 1px, outset, blanchedalmond;
+background:linear-gradient(to right, rgb(221, 231, 235),rgb(90, 140, 233));
+width: 70%;
+height : 150px;
+display: inline-block;
+font-size: 100px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+margin-left: auto;
+padding-left: auto;
+animation-name: pic;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-play-state: running;
+}
+@keyframes pic{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+#load{border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-top: 1px solid rgb(235, 232, 232);
+    border-bottom: 1px solid rgb(241, 237, 237);
+    animation:spin 2s linear infinite;}
+    @keyframes spin{
+        from {transform: rotate(0deg);}
+        to{transform: rotate(360deg);}
+    }
+.nav-link {color: rgba(235, 240, 236, 0.938);
+text-align: center;
+border: 2px, outset;
+padding: 2px;
+margin-left: 3px;
+background-color: rgb(81, 114, 151);}
+.nav-link:hover{color: black;}
+.nav-link:active{color: rgb(9, 243, 79);}
+.dropdown-item
+/*@keyframes colour{
+    0% {background-color: aqua;}
+        20%{background: linear-gradient(to right black, green);}
+        40%{background-color: skyblue;}
+        60%{background-color: darkgreen;}
+        80%{background-color: mediumorchid;}
+        100%{background-color: blue;}
+}*/
