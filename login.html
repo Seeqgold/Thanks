@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+    box-sizing: border-box;}
+        body{background-image: url("/MEDIA/images/IMG_20220927_204736.jpg");
+            background-position: center;
+            background-size: cover;
+`           background-repeat: no-repeat;}
+        #box1{border: 1.5px, solid, black;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 200px;
+            padding: 20px;
+            background: linear-gradient(to right, white, rgb(13, 13, 14));
+            width: 40vw;
+            height: 60vh;
+            font-family: 'Times New Roman', Times, serif;}
+            #login{width: 100%;
+                background: linear-gradient(to right, white, rgb(176, 230, 78));
+                height: 42px;
+                margin-top: 70px;
+                text-align: center;
+                font: 1em sans-serif;
+                border-radius: 10px;
+                border: 1px solid rgb(143, 143, 160);
+                border-style: hidden;}
+                a{color: rgb(12, 13, 14);
+                font-family: 'Times New Roman', Times, serif;
+                font-size: larger;
+                text-decoration: none;}
+                a:hover{background-color: rgb(103, 139, 99);}
+                a:active{background-color: rgb(109, 119, 119);
+                }
+                input{width: 600px;
+                height: 34px;
+                border-style: solid;
+                padding-left: 6px;}
+                h1{text-align: center;
+                animation-name: header;
+                animation-duration: 7s;
+                animation-delay: 0s;
+                animation-iteration-count: infinite;
+                animation-play-state: running;
+                color: rgb(98, 223, 15);}
+                @keyframes header{
+                    from{margin-left: 90%;}
+                    to{margin-left: 0%;}
+                }
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <form id="d"action="/project.html">
+         <h1> Login</h1> <br>
+         <label for="name"><b>NAME:</b></label><br><br>
+         <input name="name" type="text" class="name" for="name" placeholder="Amobigold Sikirat" required/><br><br>
+         <label for="number"> <b>PHONE NUMBER:</b></label><br><br>
+         <input name="tel" type="tel" class="number" for="number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" maxlength="13"placeholder="080-6751-7675" required/><br><br>
+         <label for="pswd"><b>PASSWORD:</b></label><br><br>
+         <input name="pswd" type="password" class="pswd" for="pswd" placeholder="1234"  maxlength="6" required/><br><br>
+         <button id="login"><a><b>Submit </b></a></button>
+        </form>
+    </div>
+</body>
+</html>
